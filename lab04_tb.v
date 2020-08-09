@@ -94,6 +94,7 @@ module testbench();
   initial begin
     #52
     $display("\n");
+    $display(" Ejercicio 2");
     $display("A B C D | Y");
     $display("--------|---");
     $monitor("%b %b %b %b | %b", p15, p16, p17, p18, out5);
