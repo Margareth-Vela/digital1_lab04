@@ -58,7 +58,7 @@ module gateLevel4(input wire A, B, C, D, output wire Y);
 
 endmodule
 
-// Función a implementar: Y = (B' * C' * D') + (A * C') + (A * D') + (A * B');
+// Ecuación a implementar: Y = (B' * C' * D') + (A * C') + (A * D') + (A * B');
 
 module operadores1(input wire A, B, C, D, output wire Y);
 
@@ -66,7 +66,7 @@ module operadores1(input wire A, B, C, D, output wire Y);
 
 endmodule
 
-// Función a implementar: Y = (B' + C);
+// Ecuación a implementar: Y = (B' + C);
 
 module operadores2(input wire A, B, C, output wire Y);
 
@@ -74,7 +74,7 @@ module operadores2(input wire A, B, C, output wire Y);
 
 endmodule
 
-// Función a implementar: Y = B + (C' * D) + (A * D);
+// Ecuación a implementar: Y = B + (C' * D) + (A * D);
 
 module operadores3(input wire A, B, C, D, output wire Y);
 
@@ -82,7 +82,7 @@ module operadores3(input wire A, B, C, D, output wire Y);
 
 endmodule
 
-// Función a implementar: Y = B + (A' * C');
+// Ecuación a implementar: Y = B + (A' * C');
 
 module operadores4(input wire A, B, C, output wire Y);
 
